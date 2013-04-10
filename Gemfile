@@ -22,9 +22,13 @@ end
 
 gem 'jquery-rails'
 
+# use rspec
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
 end
+
+# use haml
+gem 'haml-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
